@@ -1,7 +1,8 @@
 var mongoose = require ("mongoose");
 var Schema = mongoose.Schema;
 
-var articleSchema = new Schema ({
+// New Schema
+var ArticleSchema = new Schema ({
     title: {
         type: String,
         required: true
@@ -16,7 +17,7 @@ var articleSchema = new Schema ({
     }
 });
 
-// Creates the model from the Schema above
+// New model created from the Schema above
 var Article = mongoose.model("Article", ArticleSchema);
 
 // Export the Article Model
