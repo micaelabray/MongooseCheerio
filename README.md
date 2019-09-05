@@ -11,4 +11,4 @@ This is an app that will scrape news articles from a website and display the res
 * Express-Handlebars
 * Axios
 
-Once deployed, see the live link [here](#).
+Once deployed, see the live link [here](https://cryptic-plains-41462.herokuapp.com/).
