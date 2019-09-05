@@ -11,6 +11,7 @@ var ArticleSchema = new Schema ({
         type: String,
         required: true
     },
+    // Object that stores the note id
     note: {
         type: Schema.Types.ObjectId, 
         ref: "Note" 
