@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="wrapper">
-        <h1>Scraper</h1>
-        <div id="articles"></div>
-        <div id="notes"></div>
-    </div>
+    <div class="container">
+        <div class="wrapper">
+            <h1 style="text-align: center">Let's get to scraping</h1>
+            <h4>To scrape articles, click <a href="https://cryptic-plains-41462.herokuapp.com/scrape">here</a>.</h4>
+            <h4>To view articles, click <a href="https://cryptic-plains-41462.herokuapp.com/articles">here</a>.</h4>
+            <h4>To view a specific article, click <a href="https://cryptic-plains-41462.herokuapp.com/articles/:id">here</a> and where is says id, paste in the specific article id you would like to view.</h4>
 
+            <div id="articles"></div>
+            <div id="notes"></div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
